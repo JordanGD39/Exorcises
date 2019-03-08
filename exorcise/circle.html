@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="nl">
+  <head>
+    <meta name="author"  content="Jordan Pignato">
+    <meta name="description" content="Exorcises">
+    <meta charset="utf-8">
+    <title>Cirkel</title>
+    <style>
+    	body {
+    		text-align: center;
+        height: 100%;
+        margin: 0;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    		background-color: #2e2d36;
+    		background-image: linear-gradient(#2e2d36, #000);
+    		color: #fff;
+    	}
+    	#berekenKnop {
+    		text-decoration: underline;
+    	}
+      ul {
+        list-style-type: none;
+      }
+      a {
+      	color: red;
+      }
+    </style>
+  </head>
+  <body>
+<h3>bereken een cirkel</h3>
+<p>
+  bereken met deze site de opervlakte en omtrek van een cirkel
+</p>
+<ul>
+  <li>straal cirkel:<input type="text" id="straal" placeholder="niks ingevuld" ></li>
+  <li>oppervlakte:<div id="oppervlakte">hier komt de opervlakte</div></li>
+  <li>omtrek: <div id="omtrek">hier komt de omtrek</div></li>
+</ul>
+<button type="button" name="button" id="bereken">Bereken</button>
+<br>
+<a href="index.html">Home</a>
+ <img src="images/circle.gif" width="300" alt="cirkel">
+ <script src="js/circle.js"></script>
+  </body>
+</html>

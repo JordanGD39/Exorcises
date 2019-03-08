@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+  <meta name="author" content="Jordan Pignato">
+  <meta name="description" content="Exorcises">
+  <meta charset="utf-8">
+  <title>Rechthoek</title>
+  <style>
+    body {
+      text-align: center;
+      height: 100%;
+      margin: 0;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-color: #2e2d36;
+      background-image: linear-gradient(#2e2d36, #000);
+      color: #fff;
+    }
+
+    img {
+      top: 300px;
+      left: 100px;
+    }
+    ul {
+      list-style-type: none;
+    }
+    a {
+      color: red;
+    }
+  </style>
+</head>
+
+<body>
+    <h3>Bereken een rechthoek</h3>
+  <ul>
+    <li>lengte rechthoek <input type=text id="lengte" placeholder="niks ingevuld"></li>
+    <li>breete rechthoek <input type=text id="breete" placeholder="niks ingevuld"></li>
+    <li>opervlakte:<div id=oppervlakte>0</div></li>
+      <li>omtrek:<div id=omtrek>0</div></li>
+<li>diagonaal:<div id=diagonaal>0</div></li>
+</ul><button type="button" name="button" id="bereken">Bereken</button><br><br>
+<a href="index.html">Home</a><br>
+<img src="images/rechthoek.png" alt="rechthoek" width="300"><br>
+  <canvas id="rechthoek" width="1000" height="1000"></canvas>
+<script src="js/rectangle.js"></script>
+</body>
+</html>
